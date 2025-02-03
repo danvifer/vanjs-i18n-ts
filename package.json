@@ -1,0 +1,41 @@
+{
+  "name": "vanjs-i18n-ts",
+  "version": "0.0.1",
+  "description": "A simple i18n library for vanjs",
+  "keywords": [
+    "vanjs",
+    "typescript",
+    "i18n"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "homepage": "https://github.com/danvifer/vanjs-i18n-ts#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danvifer/vanjs-i18n-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danvifer/vanjs-i18n-ts/issues"
+  },
+  "scripts": {
+    "build": "tsc && node build.js",
+    "types": "tsc",
+    "dev": "node build.js --watch & vite"
+  },
+  "peerDependencies": {
+    "esbuild": "^0.24.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "esbuild": "^0.24.2",
+    "typescript": "^5.7.3",
+    "vanjs-core": "^1.5.3"
+  }
+}
